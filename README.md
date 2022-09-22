@@ -10,6 +10,8 @@ When first opening the app, you will be prompted to sign in with Google in order
 
 # Dependencies
 
+- Amazon Web Services (AWS)
+- Google Cloud Platform
 - HTML5
 - CSS3
 - JavaScript (ES6)
