@@ -12,12 +12,15 @@ When first opening the app, you will be prompted to sign in with Google in order
 
 - Amazon Web Services (AWS)
 - Google Cloud Platform
-- HTML5
-- CSS3
 - JavaScript (ES6)
 - React
 - React-DOM
 - React-Scripts
+- HTML5
+- CSS3
+- Puppeteer
+- Jest
+- Enzyme
 
 # API
 
