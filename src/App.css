@@ -6,6 +6,8 @@
 
 .App * {
   box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+  line-height: 1.8;
 }
 
 ul {
