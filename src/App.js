@@ -88,7 +88,7 @@ class App extends Component {
               getAccessToken();
             }}
           /> */}
-        <div className="offlineAlert">
+        <div className="OffLineAlert">
           {!navigator.onLine && (
             <OffLineAlert
               text={"You are currently OFFLINE! Data loaded from cache."}
