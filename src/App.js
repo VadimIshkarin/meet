@@ -3,7 +3,8 @@ import "./App.css";
 import EventList from "./EventList";
 import CitySearch from "./CitySearch";
 import NumberOfEvents from "./NumberOfEvents";
-import WelcomeScreen from "./WelcomeScreen";
+import { OffLineAlert } from "./Alert";
+// import WelcomeScreen from "./WelcomeScreen";
 import { getEvents, extractLocations, checkToken, getAccessToken } from "./api";
 
 class App extends Component {
@@ -87,6 +88,13 @@ class App extends Component {
               getAccessToken();
             }}
           /> */}
+        <div className="offlineAlert">
+          {!navigator.onLine && (
+            <OffLineAlert
+              text={"You are currently OFFLINE! Data loaded from cache."}
+            />
+          )}
+        </div>
       </div>
     );
   }
