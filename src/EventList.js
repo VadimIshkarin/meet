@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import Event from "./Event"; // in src/EventList.js
+import Event from "./Event";
 
 class EventList extends Component {
   render() {
     const { events } = this.props;
     return (
-      <ul className="EventList">
+      <ul className="d-flex justify-content-center event-list-wrapper">
         {events.map((event) => (
-          <li key={event.id}>
+          <li sm={12} md={6} lg={4} key={event.id}>
             <Event event={event} />
           </li>
         ))}
