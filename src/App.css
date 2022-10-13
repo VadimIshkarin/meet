@@ -30,6 +30,11 @@ p {
   margin: 5px 0;
 }
 
+.OffLineAlert {
+  position: fixed;
+  top: 90px;
+}
+
 .display-none {
   display: none;
 }
