@@ -16,7 +16,7 @@ class CitySearch extends Component {
     if (suggestions.length === 0) {
       this.setState({
         query: value,
-        infoText: "We can not find this city. Please try another city",
+        infoText: "Please try another city",
       });
     } else {
       return this.setState({
