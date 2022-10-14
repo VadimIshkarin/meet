@@ -2,6 +2,7 @@
 
 ### Screenshot of the app:
 
+![login](src/img/meet1.png)
 ![login](src/img/meet.png)
 
 # Description
