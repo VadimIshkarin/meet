@@ -2,7 +2,9 @@
 
 ### Screenshot of the app:
 
+<p>Login View: <br> Users can have access to the app by signning using their google account </p>
 ![login](src/img/meet1.png)
+<p>Main View: <br> This is the main page where users search for events from different cities, define the number of events they want to see and display a chart to visualize the search data </p>
 ![login](src/img/meet.png)
 
 # Description
