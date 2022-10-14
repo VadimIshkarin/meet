@@ -40,11 +40,11 @@
   background-color: #fff;
 }
 .google-icon {
-  position: fixed;
-  margin-top: 20px;
-  margin-left: -18px;
-  width: 20px;
-  height: 20px;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: -8px;
+  width: 18px;
+  height: 18px;
 }
 .btn-text {
   float: right;
