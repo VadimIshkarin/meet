@@ -2,9 +2,9 @@
 
 ### Screenshot of the app:
 
-  <img src="meet/img/meet.png" style="display: inline-block; margin: 0 auto; max-width: 800px">
+  <!-- <img src="meet/img/meet.png" style="display: inline-block; margin: 0 auto; max-width: 800px"> -->
 
----
+![login](src/img/meet.png)
 
 # Description
 
