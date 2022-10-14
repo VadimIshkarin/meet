@@ -5,7 +5,7 @@
   top: 0;
   background: white;
 }
-.login-button {
+/* .login-button {
   color: #494949;
   text-transform: uppercase;
   text-decoration: none;
@@ -15,7 +15,7 @@
   transition: all 0.4s ease 0s;
   min-width: 10rem;
   margin: 1rem;
-}
+} */
 .google-btn {
   width: 184px;
   height: 42px;

@@ -30,7 +30,7 @@ o.svg"
               rel="nofollow noopener"
               class="btn-text"
             >
-              <b>Sign in with google</b>
+              <b>SIGN IN</b>
             </button>
           </div>
         </div>
