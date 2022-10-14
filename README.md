@@ -2,8 +2,6 @@
 
 ### Screenshot of the app:
 
-  <!-- <img src="meet/img/meet.png" style="display: inline-block; margin: 0 auto; max-width: 800px"> -->
-
 ![login](src/img/meet.png)
 
 # Description
@@ -36,6 +34,31 @@ This app used the Google Calendar API to fetch information about upcoming events
 
 The app requires you to sign in with Google in order to access the data from its Google Calendar. This access goes both ways, as Meet can also access the user's calendar, however it doesn't and will never be given this functionality. Rest assured, the app does not attempt to do anything with the Google user's information in any way. The app is also currently in the process of being verified, but this may take some time
 
+# Feature: Filter events by city
+
+As a user, I would like to be able to filter event by city so I can see the list of events that take place in that city
+
+**Scenario 1**:
+When user hasn’t searched for a city, show upcoming events from all cities
+
+- **Given** user has not searched for a city
+- **When** the user opens the app
+- **Then** the user should see all upcoming events from all cities
+
+**Scenario 2**:
+User should see a list of suggestions when they search for a city
+
+- **Given** user wants to see all upcoming events in a city
+- **When** the user types the specific city in the search bar
+- **Then** the user should see a list of suggestions for a city
+
+**Scenario 3**:
+User can select a city from the suggested list
+
+- **Given** user types the city name in an input field for city
+- **When** the list of suggestions appears
+- **Then** the user can select the city from the suggested list
+
 # Feature: Show and Hide Event Details
 
 As a user, I would like to be able to display and collapse event details so I can see more or less information depending on my preference
@@ -45,13 +68,13 @@ An event element is Collapsed by Default
 
 - **Given** user is on the main page
 - **When** nothing is selected
-- **Then** the even details will be collapsed
+- **Then** the event details will be collapsed
 
 **Scenario 2**:
 User can expand an event to see its details
 
 - **Given** user wants to see more about an event
-- **When** the user clicks clicks on that event
+- **When** the user clicks on that event
 - **Then** the details for that event will expand
 
 **Scenario 3**:
@@ -86,7 +109,7 @@ As a user I would like to be able to access events even when offline
 **Scenario 1**:
 Show cached data when there’s no internet connection
 
-- **Given** the app has no internet connection
+- **Given** the app has no internet connection / offline
 - **When** the data is cached
 - **Then** that data will be shown
 
