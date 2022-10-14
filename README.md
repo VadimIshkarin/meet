@@ -2,7 +2,7 @@
 
 ### Screenshot of the app:
 
-  <img src="/img/meet.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 800px">
+  <img src="/img/meet.png" style="display: inline-block; margin: 0 auto; max-width: 800px">
 
 ---
 
@@ -110,6 +110,6 @@ Show a chart with the number of upcoming events in each city
 
 # Link
 
-# Meet app:
+### Meet app:
 
 https://VadimIshkarin.github.io/meet
